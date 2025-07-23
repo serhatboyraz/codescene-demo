@@ -6,7 +6,7 @@ public class EmptyCatch
     {
         try
         {
-            int result = 15 / int.Parse("0");
+            int result = 15 / int.Parse("1");
             System.Console.WriteLine(result);
         }
         catch (Exception e)
