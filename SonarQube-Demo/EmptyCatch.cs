@@ -10,7 +10,8 @@ public class EmptyCatch
         }
         catch (Exception e)
         {
-            //ignored. 
+            //logged 
+            System.Console.WriteLine(e);
         }
     }
 }
